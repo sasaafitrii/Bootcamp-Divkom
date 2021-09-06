@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(218, 204, 204);
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(204, 182, 182);
+}
+.nama{
+    display: inline;
+    margin-left: 20px;
+}
+.foto img{
+    width: 100px;
+    height: auto;
+}
+
+.isi h2{
+    text-align: center;
+}
+.isi{
+    display: grid;
+    margin: auto;
+    grid-template-areas: 
+        "education experience skills";
+    max-width:800px;
+    gap: 10px;
+
+}
+
+.boxkiri{
+    grid-area: education;
+}
+.boxtengah{
+    grid-area: experience;
+}
+.boxkanan{
+    grid-area: skills;
+}
+
+.boxkiri{
+    background-color: rosybrown;
+
+}
+.boxtengah{
+    background-color: rosybrown;
+
+}
+.boxkanan{
+    background-color: rosybrown;
+
+}
+
+.footer{
+    margin-top: 30px;
+    background-color: rgb(204, 182, 182);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer h2{
+    text-align: center;
+}
+.icon img{
+    width:50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icon{
+    display : flex;
+    justify-content: center;
+}

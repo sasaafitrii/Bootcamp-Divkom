@@ -1,0 +1,37 @@
+/*ini komen di css */
+/* selector { property:value; }
+selector -> mengatur bagian mana yg akan dikenai pengaturan css
+property -> apa yang akan diatur
+value -> bagaimana keadaan property yang diatur */
+/* css-tricks buat nyari properties yg bisa diatur */
+b{
+    color:cornflowerblue;
+}
+#id{
+    margin: 10px;
+    color:cadetblue;
+}
+.class{
+    width:200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/* cara menggunakan CSS
+ada 3 cara + inline, embedded, external */
+
+.isi{
+    background-color:midnightblue;
+    color:lightcoral;
+    margin: 30px;
+    border: 10px solid rgb(185, 206, 233);
+
+}
+a{
+    font-size: 30px;
+    color: orangered;
+}
+
+
+/* position : static, relative, absolute, fixed */
+/* flexbox
+/* grid
